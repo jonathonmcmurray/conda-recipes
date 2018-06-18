@@ -1,0 +1,23 @@
+package:
+  name: serve
+  version: 0.1.0
+
+build:
+  number: 0
+  noarch: true
+
+source:
+  url: https://github.com/jonathonmcmurray/qutil_packages/releases/download/v0.1.0/serve-0.1.0.tar.gz
+  md5: 8fc22e601e23b992e77c23cb67199207
+
+requirements:
+  run:
+    - qutil
+    - os
+    - log
+    - port
+
+about:
+  home: https://github.com/jonathonmcmurray/qutil_packages
+  license: MIT
+  summary: Simple HTTP server, allows for serving up static content, with a mechanism to tell clients to refresh page via WebSockets. 

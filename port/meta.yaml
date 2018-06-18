@@ -1,0 +1,22 @@
+package:
+  name: port
+  version: 0.1.0
+
+build:
+  number: 0
+  noarch: true
+
+source:
+  url: https://github.com/jonathonmcmurray/qutil_packages/releases/download/v0.1.0/port-0.1.0.tar.gz
+  md5: fff5e5d30e6c4505ef68de573ddd5855
+
+requirements:
+  run:
+    - qutil
+    - os
+    - log
+
+about:
+  home: https://github.com/jonathonmcmurray/qutil_packages
+  license: MIT
+  summary: Ensure kdb+ is running on a port, randomly select one if not

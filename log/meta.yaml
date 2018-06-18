@@ -1,0 +1,21 @@
+package:
+  name: log
+  version: 0.1.0
+
+build:
+  number: 0
+  noarch: true
+
+source:
+  url: https://github.com/jonathonmcmurray/qutil_packages/releases/download/v0.1.0/log-0.1.0.tar.gz
+  md5: 3dde625372d05842bd44179b862ba71e
+
+requirements:
+  run:
+    - qutil
+    - os
+
+about:
+  home: https://github.com/jonathonmcmurray/qutil_packages
+  license: MIT
+  summary: Simple set of logging functions, coloured where supported

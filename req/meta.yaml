@@ -1,0 +1,15 @@
+package:
+  name: req
+  version: 0.0.1
+
+build:
+  number: 0
+  noarch: true
+
+source:
+  path: ./
+
+requirements:
+  run:
+    - qutil
+    - qhttps

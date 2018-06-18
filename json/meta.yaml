@@ -1,0 +1,20 @@
+package:
+  name: json
+  version: 0.1.1
+
+build:
+  number: 0
+  noarch: true
+
+source:
+  url: https://github.com/jonathonmcmurray/qutil_packages/releases/download/v0.1.1/json-0.1.1.tar.gz
+  md5: b6ab8fa6babd23c6edb6646c78f80cc6
+
+requirements:
+  run:
+    - qutil
+
+about:
+  home: https://github.com/jonathonmcmurray/qutil_packages
+  license: MIT
+  summary: Provide JSON decoding/encoding for older kdb+ versions

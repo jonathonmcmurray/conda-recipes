@@ -1,0 +1,20 @@
+package:
+  name: os
+  version: 0.1.0
+
+build:
+  number: 0
+  noarch: true
+
+source:
+  url: https://github.com/jonathonmcmurray/qutil_packages/releases/download/v0.1.0/os-0.1.0.tar.gz
+  md5: 00679ef65b6ea73ab7d29de9cf972d84
+
+requirements:
+  run:
+    - qutil
+
+about:
+  home: https://github.com/jonathonmcmurray/qutil_packages
+  license: MIT
+  summary: OS functions, test system commands on current platform

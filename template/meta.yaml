@@ -1,0 +1,20 @@
+package:
+  name: template
+  version: 0.1.0
+
+build:
+  number: 0
+  noarch: true
+
+source:
+  url: https://
+  md5: 00679ef65b6ea73ab7d29de9cf972d84
+
+requirements:
+  run:
+    - qutil
+
+about:
+  home: https://
+  license: MIT
+  summary: 

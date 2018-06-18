@@ -1,0 +1,22 @@
+package:
+  name: console
+  version: 0.1.0
+
+build:
+  number: 0
+  noarch: true
+
+source:
+  url: https://github.com/jonathonmcmurray/qutil_packages/releases/download/v0.1.0/console-0.1.0.tar.gz
+  md5: 4e17d145fa715ddabe0756cac30c4c3d
+
+requirements:
+  run:
+    - qutil
+    - os
+    - log
+
+about:
+  home: https://github.com/jonathonmcmurray/qutil_packages
+  license: MIT
+  summary: Functions for changing console size, automatically maximize
