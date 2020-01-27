@@ -1,15 +1,22 @@
 package:
   name: req
-  version: 0.0.1
+  version: 0.1.2
 
 build:
   number: 0
   noarch: true
 
 source:
-  path: ./
+  url: https://github.com/jonathonmcmurray/reQ/archive/v0.1.2.tar.gz
+  md5: 851313e008e7e3c2175e83cbb1e788dc
 
 requirements:
   run:
     - qutil
     - qhttps
+    - json
+
+about:
+  home: https://github.com/jonathonmcmurray/reQ
+  license: MIT
+  summary: HTTP requests library for Q, with support for custom headers, redirects & cookies
