@@ -1,6 +1,6 @@
 package:
   name: qhttps
-  version: 0.0.1
+  version: 0.0.2
 
 build:
   number: 0
@@ -12,3 +12,4 @@ source:
 requirements:
   run:
     - ca-certificates
+    - openssl=1.0.*
